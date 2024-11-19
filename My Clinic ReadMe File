@@ -1,0 +1,50 @@
+# My Clinic - Appointment Booking System
+
+Project Name: My Clinic  
+Created By: Faneshwar Gite  
+Creation Date: 19-11-2024
+
+## Overview
+
+"My Clinic" is an appointment booking system designed for Dr. Neha, a gynecologist, to manage patient appointments in her new clinic. The application allows patients to sign up, book appointments, and receive notifications. Receptionists can manage available time slots, and doctors can view their appointment schedules for the week.
+
+### Patient Features:
+- Sign up using name and phone number.
+- Login via OTP for registered users.
+- View available slots and book appointments.
+- Receive SMS and email notifications upon appointment booking.
+- View, cancel, or modify booked appointments.
+
+### Receptionist Features:
+- Login via OTP.
+- Manage available appointment slots for the week.
+- View and confirm appointments.
+
+### Doctor Features:
+- Login via OTP.
+- View appointments scheduled for the day and week.
+
+### Usage
+**Patient Workflow**
+- Sign up or log in using OTP.
+- View available slots and book an appointment.
+- Receive SMS and email confirmations.
+- View, cancel, or modify existing appointments.
+**Receptionist Workflow**
+- Log in via OTP.
+- Manage available appointment slots for the week.
+- View and confirm patient appointments.
+**Doctor Workflow**
+- Log in via OTP.
+- View daily and weekly appointments.
+
+### Testing
+The following test cases have been implemented to ensure the functionality of the system:
+
+- Positive Tests:
+Patient Sign Up, Login with OTP, Booking Appointments, Appointment Confirmation, and Notifications.
+
+- Negative Tests:
+Invalid Phone Number, Incorrect OTP, Overlapping Slots, Past Date Slot, Double Confirmation, and Double Cancellation.
+
+For detailed test cases, refer to the project documentation.
